@@ -1,0 +1,128 @@
+*{
+    margin: 5px;
+    padding: 5px;
+    box-sizing: border-box;
+    font-family: 'Dosis', sans-serif;
+}
+.title{
+    display: flex;
+    background-color: darkgray;
+}
+.body{
+    display: flex;
+    height: 900px;
+    background-color: #FAFAFA;
+    margin-top: -10px;
+}
+.mode{
+    position: relative;
+    margin: 20px auto;
+    width: 80%;
+    background-color: #EDEDED;
+    border-radius: 5px;
+    border-style: solid;
+    border-color: gainsboro;
+}
+ul{
+    list-style: none;
+    width: 100%;
+    text-align: center;
+    margin-top: -5px;
+    margin-left: -5px;
+    margin-bottom: -5px;
+}
+ul li{
+    width: 50%;
+    margin: -5px -7px;
+	display: inline-block;
+	font-size: 16px;
+    border-radius: 3px;
+}
+#btn1{
+    background-color: aliceblue;
+}
+#btn2{
+    background-color: gray;
+}
+.timeselect{
+    display: flex;
+    width: 100%;
+    margin:40px -5px;
+}
+/*input{
+    width: 30%;
+    margin: auto;
+    flex: 0.4;
+}*/
+input{
+    width:100%;
+    border: none;
+    margin: auto;
+    flex: 0.4;
+}
+
+input :focus {
+    outline: none;
+}
+.selector{
+    display: flex;
+    margin-left: 0%;
+    text-align: right;
+    width: 100%;
+}
+.first{
+    margin: 5px 10px;
+    flex: 0.6;
+    
+}
+.second{
+    margin: 5px 10px;
+    flex: 0.3;
+    height: 25px
+}
+.buttom {
+    position: absolute;
+    border-radius: 5px;
+    margin: -5px;
+    top: 750px;
+    left: 35%;
+    width: 30%;
+    height: 30px;
+    text-align: center;
+    background-color: darkgray;
+    
+}
+.tail{
+    display:flex;
+    height: 20%;
+    margin-top: -5px;
+    background-color:darkgrey;
+}
+
+.results {
+    padding: 0px;
+    background-color: white;
+}
+.results  ul {margin: 0; padding: 0; }
+  .results  ul li {
+    list-style: none;
+    border-radius: 2px;
+    opacity: 0;
+    display: none;
+    padding: 5px 5px;
+    transition: all .5s linear;
+}
+ 
+  .show .results ul li {
+    opacity: 1;
+    display: block;
+  }
+  
+  
+  .show .results {
+    padding: 10px;
+  }
+  
+  .results ul li:hover {
+    background: #ecececcc
+  }
